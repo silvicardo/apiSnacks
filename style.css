@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+#main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.griglia {
+  height: 400px;
+  width: 400px;
+}
+
+.quadratino {
+  float: left;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background: red;
+}
+
+.quadratino.daCliccare {
+  background: white;
+}
+
+.quadratino.template {
+  display: none;
+}
+
+.quadratino.true {
+  background: green;
+}
