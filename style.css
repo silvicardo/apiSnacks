@@ -12,10 +12,43 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+/* API SNACK 1 */
+
+.areaInput {
+  background: grey;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+#inputNumerico {
+  display: block;
+  margin: 10px auto;
+}
+
+#btnSnack1 {
+  display: block;
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+.numeri {
+  width: 600px;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+}
+
+.numeriPari, .numeriDispari {
+  min-height: 40px;
+}
+
+/* API SNACK 5 */
 .griglia {
   height: 400px;
   width: 400px;
